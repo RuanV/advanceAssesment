@@ -1,0 +1,47 @@
+# Poker Hand Evaluator
+
+This repository contains a console-based application that deals and evaluates poker hands for a simplified version of the five-card draw variant. It meets the requirements of an assessment task.
+
+## Overview
+
+Five-card draw is a variant of poker where each player receives a hand of 5 cards, is then allowed to swap any number of those cards for new ones, and then competes against each other based on the standard 5 card poker hand strength.
+
+This application simulates the dealing and evaluation of poker hands. It shuffles a standard deck of 52 cards, deals a single hand of 5 cards to the player, and evaluates the player's hand, informing them of the highest ranked poker hand that matches their hand of 5 cards.
+
+## Poker Hand Rankings
+
+The standard 5 card poker hand strengths are used for evaluation:
+
+1. Straight Flush
+2. Four of a Kind
+3. Full House
+4. Flush
+5. Straight
+6. Three of a Kind
+7. Two Pair
+8. One Pair
+9. High Card
+
+## Repository Structure
+
+- `index.js`: Contains the logic for the console-based application. Run with `npm run start`.
+- `test.js`: Contains unit tests for the application logic. Run with `npm run test`.
+- `server.js`: Sets up an Express server to serve HTML for possible UI build. Run with `npm run server`.
+- `evaluateHand.js`: Contains the function to evaluate a poker hand.
+- `README.md`: This file, providing an overview of the repository.
+
+## Usage
+
+### Running the Console-Based Application
+To run the console-based application:
+```bash
+npm run start
+
+### Running Unit Tests
+```bash
+npm run test
+
+### Running the Express Server
+```bash
+npm run server
+
